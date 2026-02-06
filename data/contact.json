@@ -1,0 +1,23 @@
+{
+      "description": "If you are looking for a Flutter developer for your project or want to collaborate, contact me. I'm always open to discussing new ideas.",
+      "email": {
+            "icon": "fa-solid fa-envelope",
+            "address": "nxphong2210@gmail.com"
+      },
+      "phone": {
+            "icon": "fa-solid fa-phone",
+            "number": "+84 967 276 516"
+      },
+      "socialLinks": [
+            {
+                  "icon": "fa-brands fa-github",
+                  "text": "GitHub",
+                  "url": "https://github.com/phongnguyenxuan"
+            },
+            {
+                  "icon": "fa-brands fa-linkedin",
+                  "text": "LinkedIn",
+                  "url": "https://www.linkedin.com/in/nguyen-xuan-phong-2b64752b7/"
+            }
+      ]
+}

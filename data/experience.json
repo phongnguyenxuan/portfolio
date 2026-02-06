@@ -1,0 +1,64 @@
+{
+      "experiences": [
+            {
+                  "id": 1,
+                  "company": "Tech Startup Inc.",
+                  "position": "Senior Flutter Developer",
+                  "location": "Ho Chi Minh City, Vietnam",
+                  "period": "2023 - Present",
+                  "description": "Phát triển và maintain các ứng dụng mobile cross-platform cho hơn 100k users. Thiết kế architecture, review code, và mentor junior developers.",
+                  "achievements": [
+                        "Tối ưu performance app, giảm 40% thời gian load",
+                        "Implement CI/CD pipeline giảm 60% thời gian deploy",
+                        "Lead team 5 developers hoàn thành 3 dự án lớn"
+                  ],
+                  "technologies": [
+                        "Flutter",
+                        "Bloc",
+                        "Firebase",
+                        "REST API",
+                        "Git"
+                  ]
+            },
+            {
+                  "id": 2,
+                  "company": "Digital Solutions Ltd.",
+                  "position": "Flutter Developer",
+                  "location": "Remote",
+                  "period": "2022 - 2023",
+                  "description": "Phát triển ứng dụng e-commerce và fintech cho khách hàng quốc tế. Làm việc với team đa quốc gia trong môi trường Agile.",
+                  "achievements": [
+                        "Phát triển app e-commerce xử lý 10k transactions/ngày",
+                        "Tích hợp payment gateway và shipping APIs",
+                        "Xây dựng reusable component library cho team"
+                  ],
+                  "technologies": [
+                        "Flutter",
+                        "Provider",
+                        "Stripe",
+                        "GraphQL",
+                        "Docker"
+                  ]
+            },
+            {
+                  "id": 3,
+                  "company": "Mobile Dev Agency",
+                  "position": "Junior Flutter Developer",
+                  "location": "Hanoi, Vietnam",
+                  "period": "2021 - 2022",
+                  "description": "Bắt đầu sự nghiệp với Flutter, tham gia phát triển nhiều dự án từ startup đến enterprise. Học hỏi và apply best practices trong mobile development.",
+                  "achievements": [
+                        "Hoàn thành 5+ projects cho clients khác nhau",
+                        "Đạt giải nhất internal hackathon",
+                        "Contribute vào 3 open-source Flutter packages"
+                  ],
+                  "technologies": [
+                        "Flutter",
+                        "GetX",
+                        "Firebase",
+                        "SQLite",
+                        "Figma"
+                  ]
+            }
+      ]
+}

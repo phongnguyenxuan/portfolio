@@ -1,0 +1,28 @@
+{
+      "logo": {
+            "icon": "fa-brands fa-flutter",
+            "text": "Flutter Dev"
+      },
+      "links": [
+            {
+                  "text": "About",
+                  "href": "#about"
+            },
+            {
+                  "text": "Skills",
+                  "href": "#skills"
+            },
+            {
+                  "text": "Experience",
+                  "href": "#experience"
+            },
+            {
+                  "text": "Projects",
+                  "href": "#projects"
+            },
+            {
+                  "text": "Contact",
+                  "href": "#contact"
+            }
+      ]
+}

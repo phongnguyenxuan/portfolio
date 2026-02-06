@@ -1,0 +1,76 @@
+{
+      "projects": [
+            {
+                  "id": 1,
+                  "icon": "fa-solid fa-shopping-cart",
+                  "title": "E-Commerce Mobile App",
+                  "year": "2024",
+                  "description": "Ứng dụng mua sắm trực tuyến hoàn chỉnh với cart management, payment integration, order tracking và push notifications. Hỗ trợ đa ngôn ngữ và dark mode.",
+                  "technologies": [
+                        "Flutter",
+                        "Bloc",
+                        "Clean Architecture",
+                        "Firebase",
+                        "Payment Gateway"
+                  ],
+                  "link": {
+                        "text": "View on Play Store",
+                        "url": "#"
+                  }
+            },
+            {
+                  "id": 2,
+                  "icon": "fa-solid fa-heart-pulse",
+                  "title": "Health & Fitness Tracker",
+                  "year": "2023",
+                  "description": "App theo dõi sức khỏe với step counter, calorie tracking, workout planner và nutrition monitoring. Tích hợp với wearable devices qua Bluetooth.",
+                  "technologies": [
+                        "Flutter",
+                        "Provider",
+                        "Charts",
+                        "Bluetooth",
+                        "Local Database"
+                  ],
+                  "link": {
+                        "text": "View Details",
+                        "url": "#"
+                  }
+            },
+            {
+                  "id": 3,
+                  "icon": "fa-solid fa-building",
+                  "title": "Real Estate Marketplace",
+                  "year": "2023",
+                  "description": "Nền tảng mua bán bất động sản với map integration, advanced filters, virtual tours, và chat realtime giữa người mua và người bán.",
+                  "technologies": [
+                        "Flutter",
+                        "Cubit",
+                        "Google Maps",
+                        "WebSocket",
+                        "Cloud Storage"
+                  ],
+                  "link": {
+                        "text": "View Case Study",
+                        "url": "#"
+                  }
+            },
+            {
+                  "id": 4,
+                  "icon": "fa-solid fa-book-open",
+                  "title": "Learning Management System",
+                  "year": "2022",
+                  "description": "Ứng dụng học tập online với video streaming, quizzes, progress tracking, và certificate generation. Hỗ trợ offline mode để học không cần internet.",
+                  "technologies": [
+                        "Flutter",
+                        "Bloc",
+                        "Video Player",
+                        "Hive",
+                        "PDF Generation"
+                  ],
+                  "link": {
+                        "text": "Private Project",
+                        "url": "#"
+                  }
+            }
+      ]
+}

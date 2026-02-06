@@ -1,0 +1,25 @@
+{
+      "title": "Hello there, I'm Phong Nguyen Xuan!",
+      "subtitle": {
+            "icon": "fa-brands fa-flutter",
+            "text": "Mobile · Web · Desktop"
+      },
+      "description": "I am a mobile developer with over two years of experience specializing in Flutter. I have successfully developed and maintained applications across healthcare, augmented reality (AR), and AI chatbot domains. With a strong foundation in programming and UI/UX design, I am passionate about leveraging emerging technologies to build high-quality, scalable mobile solutions that drive team and business success.",
+      "links": [
+            {
+                  "icon": "fa-brands fa-github",
+                  "text": "GitHub",
+                  "url": "https://github.com/phongnguyenxuan"
+            },
+            {
+                  "icon": "fa-brands fa-linkedin",
+                  "text": "LinkedIn",
+                  "url": "https://www.linkedin.com/in/nguyen-xuan-phong-2b64752b7/"
+            },
+            {
+                  "icon": "fa-solid fa-envelope",
+                  "text": "Email",
+                  "url": "mailto:nxphong2210@gmail.com"
+            }
+      ]
+}

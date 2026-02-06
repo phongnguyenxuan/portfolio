@@ -1,0 +1,205 @@
+{
+      "header": {
+            "title": "Skills",
+            "description": "Technologies I work with"
+      },
+      "categories": [
+            {
+                  "name": "platforms",
+                  "color": "blue",
+                  "skills": [
+                        {
+                              "icon": "fa-brands fa-android",
+                              "iconColor": "#3DDC84",
+                              "name": "Android"
+                        },
+                        {
+                              "icon": "fa-brands fa-apple",
+                              "iconColor": "#A3AAAE",
+                              "name": "iOS"
+                        },
+                        {
+                              "icon": "fa-solid fa-globe",
+                              "iconColor": "#2196F3",
+                              "name": "Web"
+                        },
+                        {
+                              "icon": "fa-solid fa-desktop",
+                              "iconColor": "#9C27B0",
+                              "name": "Desktop"
+                        }
+                  ]
+            },
+            {
+                  "name": "core",
+                  "color": "blue",
+                  "skills": [
+                        {
+                              "icon": "fa-solid fa-code",
+                              "iconColor": "#42A5F5",
+                              "name": "OOP"
+                        },
+                        {
+                              "icon": "fa-solid fa-bolt",
+                              "iconColor": "#FFA726",
+                              "name": "Futures"
+                        },
+                        {
+                              "icon": "fa-solid fa-water",
+                              "iconColor": "#26C6DA",
+                              "name": "Streams"
+                        },
+                        {
+                              "icon": "fa-solid fa-memory",
+                              "iconColor": "#AB47BC",
+                              "name": "Memory"
+                        },
+                        {
+                              "icon": "fa-solid fa-shield-halved",
+                              "iconColor": "#66BB6A",
+                              "name": "Null-safety"
+                        },
+                        {
+                              "icon": "fa-solid fa-wand-magic-sparkles",
+                              "iconColor": "#EC407A",
+                              "name": "Animation"
+                        }
+                  ]
+            },
+            {
+                  "name": "state",
+                  "color": "purple",
+                  "skills": [
+                        {
+                              "icon": "fa-solid fa-layer-group",
+                              "iconColor": "#8E24AA",
+                              "name": "GetX"
+                        },
+                        {
+                              "icon": "fa-solid fa-code-branch",
+                              "iconColor": "#5E35B1",
+                              "name": "Provider"
+                        },
+                        {
+                              "icon": "fa-solid fa-cubes",
+                              "iconColor": "#1E88E5",
+                              "name": "Bloc/Cubit"
+                        },
+                        {
+                              "icon": "fa-solid fa-layer-group",
+                              "iconColor": "#7E57C2",
+                              "name": "Stateful"
+                        }
+                  ]
+            },
+            {
+                  "name": "storage",
+                  "color": "pink",
+                  "skills": [
+                        {
+                              "icon": "fa-solid fa-database",
+                              "iconColor": "#FFCA28",
+                              "name": "Hive"
+                        },
+                        {
+                              "icon": "fa-solid fa-database",
+                              "iconColor": "#29B6F6",
+                              "name": "Sqflite"
+                        },
+                        {
+                              "icon": "fa-solid fa-floppy-disk",
+                              "iconColor": "#EF5350",
+                              "name": "Shared Preference"
+                        },
+                        {
+                              "icon": "fa-solid fa-lock",
+                              "iconColor": "#66BB6A",
+                              "name": "Secure Storage"
+                        }
+                  ]
+            },
+            {
+                  "name": "locale",
+                  "color": "orange",
+                  "skills": [
+                        {
+                              "icon": "fa-solid fa-language",
+                              "iconColor": "#FF7043",
+                              "name": "Easy Localization"
+                        },
+                        {
+                              "icon": "fa-solid fa-globe",
+                              "iconColor": "#54C5F8",
+                              "name": "Flutter Localizations"
+                        }
+                  ]
+            },
+            {
+                  "name": "Services",
+                  "color": "red",
+                  "skills": [
+                        {
+                              "icon": "fa-solid fa-fire",
+                              "iconColor": "#FFCA28",
+                              "name": "Firebase"
+                        },
+                        {
+                              "icon": "fa-solid fa-bolt",
+                              "iconColor": "#9C27B0",
+                              "name": "Pusher"
+                        },
+                        {
+                              "icon": "fa-solid fa-bell",
+                              "iconColor": "#FF9800",
+                              "name": "Notification"
+                        },
+                        {
+                              "icon": "fa-solid fa-plug",
+                              "iconColor": "#26A69A",
+                              "name": "Api"
+                        },
+                        {
+                              "icon": "fa-solid fa-wifi",
+                              "iconColor": "#00B8FF",
+                              "name": "Socket"
+                        },
+                        {
+                              "icon": "fa-solid fa-box",
+                              "iconColor": "#A78BFA",
+                              "name": "Ninanita SDK"
+                        },
+                        {
+                              "icon": "fa-solid fa-puzzle-piece",
+                              "iconColor": "#5C6BC0",
+                              "name": "Third party"
+                        }
+                  ]
+            },
+            {
+                  "name": "arch",
+                  "color": "green",
+                  "skills": [
+                        {
+                              "icon": "fa-solid fa-terminal",
+                              "iconColor": "#66BB6A",
+                              "name": "GetX CLI"
+                        },
+                        {
+                              "icon": "fa-solid fa-sitemap",
+                              "iconColor": "#42A5F5",
+                              "name": "Clean Arch"
+                        },
+                        {
+                              "icon": "fa-solid fa-code",
+                              "iconColor": "#26C6DA",
+                              "name": "Clean Code"
+                        },
+                        {
+                              "icon": "fa-solid fa-diagram-project",
+                              "iconColor": "#1E88E5",
+                              "name": "Bloc Arch"
+                        }
+                  ]
+            }
+      ]
+}

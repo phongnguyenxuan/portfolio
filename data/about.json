@@ -1,0 +1,14 @@
+{
+      "items": [
+            {
+                  "icon": "fa-solid fa-graduation-cap",
+                  "title": "Background",
+                  "description": "Graduating in Information Technology in 2023, I have 2+ years of experience developing Flutter applications. Having worked with projects from startups to enterprises, I clearly understand how to build scalable and maintainable apps."
+            },
+            {
+                  "icon": "fa-solid fa-code",
+                  "title": "Expertise",
+                  "description": "Over two years building production Flutter apps across healthcare, AR, and AI chatbot domains. I design user-focused, scalable mobile solutions using Flutter & Dart, Bloc/Provider/GetX, Firebase, REST/GraphQL, on-device ML, AR integrations, and CI/CD pipelines."
+            }
+      ]
+}
