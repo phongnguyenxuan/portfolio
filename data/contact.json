@@ -8,6 +8,11 @@
             "icon": "fa-solid fa-phone",
             "number": "+84 967 276 516"
       },
+      "resume": {
+            "icon": "fa-solid fa-file-arrow-down",
+            "text": "View my Resume",
+            "url": "/view-resume.html"
+      },
       "socialLinks": [
             {
                   "icon": "fa-brands fa-github",

@@ -82,16 +82,68 @@ body {
   }
 }
 
+@keyframes stars-slow {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 5000px -3000px;
+  }
+}
+
+@keyframes stars-medium {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -7000px -4000px;
+  }
+}
+
 .animate-stars {
   background-image:
-    radial-gradient(2px 2px at 20px 30px, #eee, rgba(0, 0, 0, 0)),
-    radial-gradient(2px 2px at 60px 70px, #fff, rgba(0, 0, 0, 0)),
-    radial-gradient(1px 1px at 50px 50px, #fff, rgba(0, 0, 0, 0)),
-    radial-gradient(1px 1px at 130px 80px, #fff, rgba(0, 0, 0, 0)),
-    radial-gradient(2px 2px at 90px 10px, #fff, rgba(0, 0, 0, 0));
+    /* Layer 1 - Big stars */
+    radial-gradient(2px 2px at 13% 17%, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0)),
+    radial-gradient(3px 3px at 67% 23%, rgba(238, 238, 238, 0.8), rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 89% 41%, rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 31% 59%, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0)),
+    radial-gradient(3px 3px at 71% 73%, rgba(238, 238, 238, 0.8), rgba(0, 0, 0, 0)),
+
+    /* Layer 2 - Medium stars */
+    radial-gradient(1px 1px at 8% 37%, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 43% 11%, rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 76% 54%, rgba(238, 238, 238, 0.6), rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 21% 82%, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 94% 19%, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 52% 67%, rgba(238, 238, 238, 0.7), rgba(0, 0, 0, 0)),
+    radial-gradient(2px 2px at 37% 44%, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0)),
+
+    /* Layer 3 - Small stars */
+    radial-gradient(1px 1px at 18% 91%, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 84% 7%, rgba(238, 238, 238, 0.6), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 61% 33%, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 5% 56%, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 48% 88%, rgba(238, 238, 238, 0.4), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 91% 64%, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 26% 26%, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 73% 96%, rgba(238, 238, 238, 0.4), rgba(0, 0, 0, 0)),
+
+    /* Layer 4 - Tiny stars for depth */
+    radial-gradient(1px 1px at 39% 14%, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 81% 78%, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 11% 49%, rgba(238, 238, 238, 0.3), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 57% 21%, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 96% 87%, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 34% 71%, rgba(238, 238, 238, 0.3), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 68% 46%, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 14% 63%, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 87% 29%, rgba(238, 238, 238, 0.3), rgba(0, 0, 0, 0)),
+    radial-gradient(1px 1px at 42% 97%, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0));
   background-repeat: repeat;
-  background-size: 200px 200px;
-  animation: stars 200s linear infinite;
+  background-size: 600px 600px, 800px 800px, 400px 400px, 500px 500px;
+  animation: stars 300s linear infinite, stars-slow 400s linear infinite, stars-medium 250s linear infinite;
 }
 
 /* Start paused by default; play only when scrolling */

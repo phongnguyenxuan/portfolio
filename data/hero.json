@@ -4,7 +4,12 @@
             "icon": "fa-brands fa-flutter",
             "text": "Mobile · Web · Desktop"
       },
-      "description": "I am a mobile developer with over two years of experience specializing in Flutter. I have successfully developed and maintained applications across healthcare, augmented reality (AR), and AI chatbot domains. With a strong foundation in programming and UI/UX design, I am passionate about leveraging emerging technologies to build high-quality, scalable mobile solutions that drive team and business success.",
+      "description": "Flutter developer with 2+ years of hands-on experience building and maintaining production mobile applications. I’ve shipped 4 apps on Google Play and App Store, spanning healthcare, social networking, AR, and AI chatbot projects.",
+      "resume": {
+            "icon": "fa-solid fa-file-arrow-down",
+            "text": "View my Resume",
+            "url": "/view-resume.html"
+      },
       "links": [
             {
                   "icon": "fa-brands fa-github",

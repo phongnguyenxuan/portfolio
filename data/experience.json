@@ -2,62 +2,45 @@
       "experiences": [
             {
                   "id": 1,
-                  "company": "Tech Startup Inc.",
-                  "position": "Senior Flutter Developer",
-                  "location": "Ho Chi Minh City, Vietnam",
-                  "period": "2023 - Present",
-                  "description": "Phát triển và maintain các ứng dụng mobile cross-platform cho hơn 100k users. Thiết kế architecture, review code, và mentor junior developers.",
+                  "company": "BSM Labs",
+                  "position": "Flutter Developer",
+                  "location": "Hanoi, Vietnam",
+                  "period": "03/2024 - present",
+                  "description": "Develop and maintain mobile applications in the healthcare and augmented reality (AR) domains using Flutter.",
                   "achievements": [
-                        "Tối ưu performance app, giảm 40% thời gian load",
-                        "Implement CI/CD pipeline giảm 60% thời gian deploy",
-                        "Lead team 5 developers hoàn thành 3 dự án lớn"
+                        "Built and maintained production Flutter applications across AI, healthcare, AR, and social domains, with third-party SDK integrations.",
+                        "Implemented features, animations, and reusable UI components following Figma designs and product requirements.",
+                        "Integrated REST APIs and third-party SDKs in collaboration with backend and design teams.",
+                        "Improved app stability and performance through bug fixing and scalability enhancements."
                   ],
                   "technologies": [
                         "Flutter",
                         "Bloc",
+                        "GetX",
                         "Firebase",
                         "REST API",
+                        "Third-party SDKs",
                         "Git"
                   ]
             },
             {
                   "id": 2,
-                  "company": "Digital Solutions Ltd.",
+                  "company": "Newwave Solutions",
                   "position": "Flutter Developer",
-                  "location": "Remote",
-                  "period": "2022 - 2023",
-                  "description": "Phát triển ứng dụng e-commerce và fintech cho khách hàng quốc tế. Làm việc với team đa quốc gia trong môi trường Agile.",
+                  "location": "Hanoi, Vietnam",
+                  "period": "08/2023 - 03/2024",
+                  "description": "Developed Flutter applications for multiple client projects based on Figma designs.",
                   "achievements": [
-                        "Phát triển app e-commerce xử lý 10k transactions/ngày",
-                        "Tích hợp payment gateway và shipping APIs",
-                        "Xây dựng reusable component library cho team"
+                        "Built Flutter UI screens and reusable components from Figma designs.",
+                        "Worked with REST APIs and basic state management using Provider and Riverpod.",
+                        "Adhered to clean code principles and team Git workflows."
                   ],
                   "technologies": [
                         "Flutter",
                         "Provider",
-                        "Stripe",
-                        "GraphQL",
-                        "Docker"
-                  ]
-            },
-            {
-                  "id": 3,
-                  "company": "Mobile Dev Agency",
-                  "position": "Junior Flutter Developer",
-                  "location": "Hanoi, Vietnam",
-                  "period": "2021 - 2022",
-                  "description": "Bắt đầu sự nghiệp với Flutter, tham gia phát triển nhiều dự án từ startup đến enterprise. Học hỏi và apply best practices trong mobile development.",
-                  "achievements": [
-                        "Hoàn thành 5+ projects cho clients khác nhau",
-                        "Đạt giải nhất internal hackathon",
-                        "Contribute vào 3 open-source Flutter packages"
-                  ],
-                  "technologies": [
-                        "Flutter",
-                        "GetX",
-                        "Firebase",
-                        "SQLite",
-                        "Figma"
+                        "Riverpod",
+                        "REST API",
+                        "Git"
                   ]
             }
       ]

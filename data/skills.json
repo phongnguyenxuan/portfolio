@@ -144,11 +144,6 @@
                               "name": "Firebase"
                         },
                         {
-                              "icon": "fa-solid fa-bolt",
-                              "iconColor": "#9C27B0",
-                              "name": "Pusher"
-                        },
-                        {
                               "icon": "fa-solid fa-bell",
                               "iconColor": "#FF9800",
                               "name": "Notification"
@@ -164,11 +159,6 @@
                               "name": "Socket"
                         },
                         {
-                              "icon": "fa-solid fa-box",
-                              "iconColor": "#A78BFA",
-                              "name": "Ninanita SDK"
-                        },
-                        {
                               "icon": "fa-solid fa-puzzle-piece",
                               "iconColor": "#5C6BC0",
                               "name": "Third party"
@@ -179,11 +169,6 @@
                   "name": "arch",
                   "color": "green",
                   "skills": [
-                        {
-                              "icon": "fa-solid fa-terminal",
-                              "iconColor": "#66BB6A",
-                              "name": "GetX CLI"
-                        },
                         {
                               "icon": "fa-solid fa-sitemap",
                               "iconColor": "#42A5F5",

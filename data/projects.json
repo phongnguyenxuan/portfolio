@@ -3,33 +3,55 @@
             {
                   "id": 1,
                   "icon": "fa-solid fa-shopping-cart",
-                  "title": "E-Commerce Mobile App",
-                  "year": "2024",
-                  "description": "Ứng dụng mua sắm trực tuyến hoàn chỉnh với cart management, payment integration, order tracking và push notifications. Hỗ trợ đa ngôn ngữ và dark mode.",
+                  "logo": "/projects/hmuh.webp",
+                  "title": "HMUH AI",
+                  "year": "2025",
+                  "description": "HMUH-AI is an innovative healthcare application developed by Hanoi Medical University Hospital and BSM Labs, applying artificial intelligence technology to provide comprehensive support to patients.",
+                  "features": [
+                        "AI-assisted health data analysis and patient support workflows",
+                        "Real-time data sync with wearable devices via Bluetooth (Hband SDK)",
+                        "Push notifications and health alerts using Firebase Cloud Messaging",
+                        "Data visualization with interactive charts"
+                  ],
                   "technologies": [
                         "Flutter",
                         "Bloc",
                         "Clean Architecture",
                         "Firebase",
-                        "Payment Gateway"
+                        "Notifications",
+                        "Hband SDK",
+                        "Bluetooth",
+                        "Charts"
                   ],
-                  "link": {
-                        "text": "View on Play Store",
-                        "url": "#"
-                  }
+                  "links": [
+                        {
+                              "type": "chplay",
+                              "text": "View on Play Store",
+                              "url": "https://play.google.com/store/apps/details?id=example"
+                        },
+                        {
+                              "type": "appstore",
+                              "text": "View on App Store",
+                              "url": "https://apps.apple.com/app/idXXXXXXXXX"
+                        }
+                  ]
             },
             {
                   "id": 2,
                   "icon": "fa-solid fa-heart-pulse",
-                  "title": "Health & Fitness Tracker",
-                  "year": "2023",
-                  "description": "App theo dõi sức khỏe với step counter, calorie tracking, workout planner và nutrition monitoring. Tích hợp với wearable devices qua Bluetooth.",
+                  "logo": "/projects/vnds.webp",
+                  "title": "Viet Nam Dieu Su",
+                  "year": "2025",
+                  "description": "An augmented reality app that allows users to explore Vietnam’s historical monuments in their original forms and understand key events through immersive AR experiences.",
+                  "features": [
+                        "AI-powered chatbot for history and cultural Q&A",
+                        "Unity–Flutter integration using platform channels"
+                  ],
                   "technologies": [
                         "Flutter",
-                        "Provider",
-                        "Charts",
-                        "Bluetooth",
-                        "Local Database"
+                        "Bloc",
+                        "Niantic SDK",
+                        "Unity"
                   ],
                   "link": {
                         "text": "View Details",
@@ -39,8 +61,9 @@
             {
                   "id": 3,
                   "icon": "fa-solid fa-building",
-                  "title": "Real Estate Marketplace",
-                  "year": "2023",
+                  "logo": "/projects/vdiai.webp",
+                  "title": "VDI AI DX",
+                  "year": "2025",
                   "description": "Nền tảng mua bán bất động sản với map integration, advanced filters, virtual tours, và chat realtime giữa người mua và người bán.",
                   "technologies": [
                         "Flutter",
@@ -57,7 +80,8 @@
             {
                   "id": 4,
                   "icon": "fa-solid fa-book-open",
-                  "title": "Learning Management System",
+                  "logo": "/projects/tructam.webp",
+                  "title": "Truc Tam",
                   "year": "2022",
                   "description": "Ứng dụng học tập online với video streaming, quizzes, progress tracking, và certificate generation. Hỗ trợ offline mode để học không cần internet.",
                   "technologies": [

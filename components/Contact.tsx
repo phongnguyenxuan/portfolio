@@ -41,9 +41,6 @@ export default function Contact() {
                         </div>
 
                         <div className="max-w-[600px] reveal opacity-0 translate-y-8 transition-all duration-600">
-                              <p className="text-[1.05rem] text-[#8b949e] mb-8 leading-[1.8]">
-                                    {contactData.description}
-                              </p>
 
                               <div className="flex flex-col gap-3 mb-6">
                                     <a
@@ -64,6 +61,17 @@ export default function Contact() {
                               </div>
 
                               <div className="mt-10 flex flex-col md:flex-row gap-8 flex-wrap">
+                                    {contactData.resume && (
+                                          <a
+                                                href={contactData.resume.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-[#8b949e] hover:text-[#58a6ff] transition-colors text-[0.95rem] flex items-center gap-2"
+                                          >
+                                                <i className={`${contactData.resume.icon} text-xl`}></i>
+                                                {contactData.resume.text}
+                                          </a>
+                                    )}
                                     {contactData.socialLinks.map((link) => (
                                           <a
                                                 key={link.url}

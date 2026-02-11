@@ -53,7 +53,18 @@ export default function Hero() {
                               </h1>
 
                               <p className="text-xl text-[#58a6ff] font-medium mb-8 flex items-center gap-4">
-                                    <i className={`${heroData.subtitle.icon} text-2xl`}></i>
+                                    <svg
+                                          className="w-5 h-5"
+                                          viewBox="0 0 640 640"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          role="img"
+                                          aria-hidden="false"
+                                    >
+                                          <path
+                                                fill="currentColor"
+                                                d="M525.5 300.3L387.7 438.1L525.5 576L368 576C331.9 539.9 285.9 493.9 230.1 438.1L368 300.3L525.5 300.3zM368 64L112 320L190.8 398.8L525.5 64L368 64z"
+                                          />
+                                    </svg>
                                     {heroData.subtitle.text}
                               </p>
 
@@ -62,6 +73,17 @@ export default function Hero() {
                               </p>
 
                               <div className="flex gap-8 items-center flex-wrap">
+                                    {heroData.resume && (
+                                          <a
+                                                href={heroData.resume.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center gap-3 px-6 py-3 bg-[#58a6ff] text-[#0d1117] font-semibold rounded-lg hover:bg-[#79b8ff] transition-all duration-300 hover:shadow-[0_0_20px_rgba(88,166,255,0.3)] hover:-translate-y-0.5"
+                                          >
+                                                <i className={`${heroData.resume.icon} text-lg`}></i>
+                                                {heroData.resume.text}
+                                          </a>
+                                    )}
                                     {heroData.links.map((link) => (
                                           <a
                                                 key={link.url}
