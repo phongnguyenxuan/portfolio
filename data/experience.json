@@ -8,10 +8,13 @@
                   "period": "03/2024 - present",
                   "description": "Develop and maintain mobile applications in the healthcare and augmented reality (AR) domains using Flutter.",
                   "achievements": [
-                        "Built and maintained production Flutter applications across AI, healthcare, AR, and social domains, with third-party SDK integrations.",
-                        "Implemented features, animations, and reusable UI components following Figma designs and product requirements.",
-                        "Integrated REST APIs and third-party SDKs in collaboration with backend and design teams.",
-                        "Improved app stability and performance through bug fixing and scalability enhancements."
+                        "Built, released, and maintained 4 production Flutter applications published on stores, across Healthcare, Social, AR, and AI-assisted diagnosis domains.",
+                        "Built cross-platform mobile applications (Android, IOS) using Flutter & Dart, covering the full development lifecycle: feature development, bug fixing, performance optimization, and store release.",
+                        "Implemented UI/UX components based on Figma designs, including custom widgets, animations, navigation flows, and responsive layouts",
+                        "Improved application performance and stability by optimizing widget rebuilds, fixing memory & performance issues, and resolving production crashes",
+                        "Integrated REST APIs and third-party SDKs, collaborating closely with backend and design teams",
+                        "Implemented real-time features using Socket.IO for real-time data synchronization and messaging.",
+                        "Integrated AR features by embedding Unity modules into Flutter applications, handling Flutter–Unity communication and platform-specific builds."
                   ],
                   "technologies": [
                         "Flutter",

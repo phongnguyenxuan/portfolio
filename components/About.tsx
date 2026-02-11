@@ -31,7 +31,6 @@ export default function About() {
 
       return (
             <section id="about" className="py-32 relative" ref={sectionRef}>
-                  <div className="absolute inset-0 opacity-20 animate-stars"></div>
                   <div className="max-w-[1000px] mx-auto px-8 relative z-10 content-justify">
                         <div className="mb-12 reveal opacity-0 translate-y-8 transition-all duration-600">
                               <h2 className="text-[clamp(2rem,4vw,3rem)] font-bold text-[#c9d1d9] mb-4 text-left">

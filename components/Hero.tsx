@@ -39,7 +39,6 @@ export default function Hero() {
 
       return (
             <section className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
-                  <div className="absolute inset-0 opacity-10 animate-stars"></div>
 
                   <div className="max-w-[1000px] mx-auto px-8 relative z-10 content-justify">
                         <div

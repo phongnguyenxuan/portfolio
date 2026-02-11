@@ -1,6 +1,3 @@
-'use client';
-
-import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -12,28 +9,10 @@ import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
 
 export default function Home() {
-  useEffect(() => {
-    let scrollTimeout: NodeJS.Timeout;
-
-    const handleScroll = () => {
-      document.body.classList.add('scrolling');
-
-      clearTimeout(scrollTimeout);
-      scrollTimeout = setTimeout(() => {
-        document.body.classList.remove('scrolling');
-      }, 150);
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      clearTimeout(scrollTimeout);
-    };
-  }, []);
-
   return (
     <>
+      {/* Static starfield — fixed position creates natural parallax on scroll */}
+      <div className="fixed inset-0 opacity-15 animate-stars pointer-events-none" aria-hidden="true"></div>
       <Navbar />
       <Hero />
       <About />

@@ -31,7 +31,6 @@ export default function Skills() {
 
       return (
             <section id="skills" className="pt-16 pb-32 bg-[var(--background)] relative overflow-hidden" ref={sectionRef}>
-                  <div className="absolute inset-0 opacity-40 animate-stars"></div>
 
                   <div className="max-w-[1000px] mx-auto px-8 relative z-10 content-justify">
                         <div className="mb-12 reveal opacity-0 translate-y-8 transition-all duration-600">
