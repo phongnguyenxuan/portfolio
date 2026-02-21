@@ -6,23 +6,24 @@
       "projects": [
             {
                   "id": 1,
-                  "icon": "fa-solid fa-shopping-cart",
-                  "logo": "/projects/hmuh.webp",
                   "title": "HMUH AI",
-                  "year": "2025",
+                  "owner": "(BSM Labs & Hanoi Medical University Hospital)",
                   "description": "HMUH-AI is an innovative healthcare application developed by Hanoi Medical University Hospital and BSM Labs, applying artificial intelligence technology to provide comprehensive support to patients.",
                   "features": [
-                        "AI-assisted health consultations with personalized recommendations",
-                        "Personalized meal recommendations and food-ingredient analysis from photos",
-                        "Integration with Hband wearable SDK for real-time health data collection",
-                        "Interactive charts for visualizing real-time and historical health metrics",
-                        "Real-time doctor–patient communication via Socket.IO with state synchronization"
+                        "Developed AI-powered health features (consultation, meal suggestions, image-based food analysis) via REST APIs",
+                        "Developed interactive learning modules on health topics, enhancing user engagement through dynamic content and structured educational flows",
+                        "Integrated wearable SDK (Hband) using platform channels",
+                        "Captured real-time wearable data, synchronized with backend APIs, and rendered server-processed metrics through interactive charts.",
+                        "Built streaming chatbot using SSE with Markdown rendering for rich conversation UI.",
+                        "Implemented real-time doctor chat using Socket.IO with Bloc state management",
+                        "Integrated FCM push notifications with background handling for reliable health alerts and updates."
                   ],
                   "technologies": [
                         "Flutter",
                         "Bloc",
                         "Clean Architecture",
                         "Firebase",
+                        "Shared Preferences",
                         "Notifications",
                         "Hband SDK",
                         "Bluetooth",
@@ -43,11 +44,72 @@
                   ]
             },
             {
+                  "id": 4,
+                  "icon": "fa-solid fa-book-open",
+                  "logo": "/projects/tructam.webp",
+                  "title": "Truc Tam",
+                  "owner": "(BSM Labs & Truc Tam)",
+                  "description": "Trực Tâm is a community-focused learning and personal development app that empowers users with educational content, self-growth resources, and opportunities to connect with a sincere learning network",
+                  "features": [
+                        "Developed core social networking features including authentication, user profiles, content feeds, likes, comments, and dynamic content rendering",
+                        "Implemented audio playback functionality with background support, allowing continuous listening when the app is minimized",
+                        "Built real-time interaction features and synchronized data with backend APIs",
+                        "Implemented push notifications for new posts, interactions, and community updates",
+                        "Implemented real-time 1-1 and group chat using Socket.IO with efficient state synchronization and message streaming",
+                        "Optimized UI performance and state handling for smooth scrolling and dynamic content rendering"
+                  ],
+                  "technologies": [
+                        "Flutter",
+                        "GetX",
+                        "Video Player",
+                        "Firebase",
+                        "Notifications",
+                        "Shared Preferences",
+                        "just_audio",
+                        "SocketIO"
+                  ],
+                  "links": [
+                        {
+                              "type": "chplay",
+                              "text": "View on Play Store",
+                              "url": "https://play.google.com/store/apps/details?id=com.bsmlab.tructam"
+                        },
+                        {
+                              "type": "appstore",
+                              "text": "View on App Store",
+                              "url": "https://apps.apple.com/vn/app/tr%E1%BB%B1c-t%C3%A2m/id6450592543"
+                        }
+                  ]
+            },
+            {
                   "id": 2,
-                  "icon": "fa-solid fa-heart-pulse",
-                  "logo": "/projects/vnds.webp",
+                  "title": "VDI AI DX",
+                  "owner": "(VDI)",
+                  "description": "An internal AI-powered knowledge assistant application designed to help employees quickly search, retrieve, and interact with company documents and internal resources.",
+                  "features": [
+                        "Streaming AI responses using Server-Sent Events (SSE)",
+                        "Optimized chat state management using Cubit to handle streaming updates, loading states, and error",
+                        "Built reusable chat UI components with markdown rendering and dynamic message updates",
+                        "Optimized incremental markdown rendering to prevent unnecessary rebuilds and eliminate UI jank during streaming."
+                  ],
+                  "technologies": [
+                        "Flutter",
+                        "Cubit",
+                        "REST API",
+                        "Server-Sent Events (SSE)"
+                  ],
+                  "links": [
+                        {
+                              "type": "internal",
+                              "text": "Internal Project",
+                              "url": "#"
+                        }
+                  ]
+            },
+            {
+                  "id": 3,
                   "title": "Viet Nam Dieu Su",
-                  "year": "2025",
+                  "owner": "(BSM Labs)",
                   "description": "An augmented reality app that allows users to explore Vietnam’s historical monuments in their original forms and understand key events through immersive AR experiences.",
                   "features": [
                         "AI-powered chatbot for history and cultural Q&A",
@@ -59,48 +121,18 @@
                         "Niantic SDK",
                         "Unity"
                   ],
-                  "link": {
-                        "text": "View Details",
-                        "url": "#"
-                  }
-            },
-            {
-                  "id": 3,
-                  "icon": "fa-solid fa-building",
-                  "logo": "/projects/vdiai.webp",
-                  "title": "VDI AI DX",
-                  "year": "2025",
-                  "description": "Nền tảng mua bán bất động sản với map integration, advanced filters, virtual tours, và chat realtime giữa người mua và người bán.",
-                  "technologies": [
-                        "Flutter",
-                        "Cubit",
-                        "Google Maps",
-                        "WebSocket",
-                        "Cloud Storage"
-                  ],
-                  "link": {
-                        "text": "View Case Study",
-                        "url": "#"
-                  }
-            },
-            {
-                  "id": 4,
-                  "icon": "fa-solid fa-book-open",
-                  "logo": "/projects/tructam.webp",
-                  "title": "Truc Tam",
-                  "year": "2022",
-                  "description": "Ứng dụng học tập online với video streaming, quizzes, progress tracking, và certificate generation. Hỗ trợ offline mode để học không cần internet.",
-                  "technologies": [
-                        "Flutter",
-                        "Bloc",
-                        "Video Player",
-                        "Hive",
-                        "PDF Generation"
-                  ],
-                  "link": {
-                        "text": "Private Project",
-                        "url": "#"
-                  }
+                  "links": [
+                        {
+                              "type": "chplay",
+                              "text": "View on Play Store",
+                              "url": "https://play.google.com/store/apps/details?id=com.bsmlabs.vnds.vndsapp"
+                        },
+                        {
+                              "type": "appstore",
+                              "text": "View on App Store",
+                              "url": "https://apps.apple.com/vn/app/vi%E1%BB%87t-nam-di%E1%BB%87u-s%E1%BB%AD/id6743313532"
+                        }
+                  ]
             }
       ]
 }

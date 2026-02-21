@@ -202,7 +202,7 @@ function buildProjectsLines(): StreamLine[] {
                               style={{ color: "var(--color-primary)", fontWeight: 500, marginTop: 28 }}
                         >
                               {project.title}
-                              <span style={{ ...S.mono, marginLeft: 10 }}>{project.year}</span>
+                              <span style={{ ...S.mono, marginLeft: 10 }}>{project.owner}</span>
                         </p>
                   ),
             });
@@ -446,7 +446,7 @@ function StreamPanel({ tab }: { tab: Tab }) {
                               >
                                     {line.node}
                                     {isLastVisible && (
-                                          <span className="blink-cursor" style={{ fontSize: 14, marginLeft: 2 }}>
+                                          <span className="blink-cursor" style={{ fontSize: 14, marginLeft: 8 }}>
                                                 █
                                           </span>
                                     )}
