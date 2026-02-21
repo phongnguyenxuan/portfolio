@@ -1,4 +1,7 @@
 {
+      "header": {
+            "title": "Selected Projects"
+      },
       "description": "A collection of projects I've worked on, showcasing mobile development, AI integration, and innovative solutions.",
       "projects": [
             {
@@ -9,10 +12,11 @@
                   "year": "2025",
                   "description": "HMUH-AI is an innovative healthcare application developed by Hanoi Medical University Hospital and BSM Labs, applying artificial intelligence technology to provide comprehensive support to patients.",
                   "features": [
-                        "AI-assisted health data analysis and patient support workflows",
-                        "Real-time data sync with wearable devices via Bluetooth (Hband SDK)",
-                        "Push notifications and health alerts using Firebase Cloud Messaging",
-                        "Data visualization with interactive charts"
+                        "AI-assisted health consultations with personalized recommendations",
+                        "Personalized meal recommendations and food-ingredient analysis from photos",
+                        "Integration with Hband wearable SDK for real-time health data collection",
+                        "Interactive charts for visualizing real-time and historical health metrics",
+                        "Real-time doctor–patient communication via Socket.IO with state synchronization"
                   ],
                   "technologies": [
                         "Flutter",
@@ -22,18 +26,19 @@
                         "Notifications",
                         "Hband SDK",
                         "Bluetooth",
-                        "Charts"
+                        "Charts",
+                        "SocketIO"
                   ],
                   "links": [
                         {
                               "type": "chplay",
                               "text": "View on Play Store",
-                              "url": "https://play.google.com/store/apps/details?id=example"
+                              "url": "https://play.google.com/store/apps/details?id=com.bsmlabs.hmuh"
                         },
                         {
                               "type": "appstore",
                               "text": "View on App Store",
-                              "url": "https://apps.apple.com/app/idXXXXXXXXX"
+                              "url": "https://apps.apple.com/vn/app/hmuh-ai/id6741954542"
                         }
                   ]
             },

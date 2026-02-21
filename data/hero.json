@@ -1,4 +1,8 @@
 {
+      "meta": {
+            "title": "Phong Nguyen — Flutter Developer",
+            "description": "Flutter Developer — Clean architecture, production systems, performance optimization."
+      },
       "title": "Hello there, I'm Phong Nguyen Xuan!",
       "subtitle": {
             "icon": "fa-brands fa-flutter",
