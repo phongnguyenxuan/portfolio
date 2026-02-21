@@ -1,9 +1,21 @@
 import type { Metadata } from "next";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import heroData from "@/data/hero.json";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains",
+});
 
 export const metadata: Metadata = {
-  title: "Flutter Dev Portfolio",
-  description: "Flutter Developer Portfolio",
+  title: heroData.meta.title,
+  description: heroData.meta.description,
 };
 
 export default function RootLayout({
@@ -12,17 +24,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
       <head>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem("theme");var l=t==="light"||(t==null&&window.matchMedia("(prefers-color-scheme: light)").matches);if(l)document.documentElement.classList.add("light")}catch(e){}})()`,
+          }}
         />
       </head>
-      <body suppressHydrationWarning>
+      <body className="font-mono" suppressHydrationWarning>
         {children}
       </body>
     </html>
